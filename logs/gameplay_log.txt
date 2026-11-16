@@ -1,0 +1,242 @@
+Connect Four - Sprint 3 gameplay execution log
+Generated: 2026-11-15 21:15:46 (localhost, port 8080)
+Python 3.9.25
+Client exit codes: Alice=0 Bob=0
+Moves: Alice (X) plays column 4 four times, Bob (O) plays column 5 three times (7 turns).
+
+======================================================================
+CLIENT 1 SESSION (Alice, Player_1)
+======================================================================
+Connected to localhost (127.0.0.1:8080).
+Connected as Alice. Waiting for Player 2 to connect...
+=== Game started! You are Player_1 (X) vs Bob ===
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 4
+You played column 4 (move 1).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  +---------------+
+Waiting for Player_2 (Bob) to move...
+Bob played column 5 (move 2).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 4
+You played column 4 (move 3).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  +---------------+
+Waiting for Player_2 (Bob) to move...
+Bob played column 5 (move 4).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 4
+You played column 4 (move 5).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+Waiting for Player_2 (Bob) to move...
+Bob played column 5 (move 6).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 4
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+*** GAME OVER: You WIN! ***
+================ SCORES ================
+ Alice (Player_1, X) : 1 win
+ Bob   (Player_2, O) : 0 wins
+========================================
+
+======================================================================
+CLIENT 2 SESSION (Bob, Player_2)
+======================================================================
+Connected to localhost (127.0.0.1:8080).
+=== Game started! You are Player_2 (O) vs Alice ===
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  +---------------+
+Waiting for Player_1 (Alice) to move...
+Alice played column 4 (move 1).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 5
+You played column 5 (move 2).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  +---------------+
+Waiting for Player_1 (Alice) to move...
+Alice played column 4 (move 3).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 5
+You played column 5 (move 4).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+Waiting for Player_1 (Alice) to move...
+Alice played column 4 (move 5).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+>>> Your Turn <<<
+Enter column (1-7) or q to quit: 5
+You played column 5 (move 6).
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+Waiting for Player_1 (Alice) to move...
+    1 2 3 4 5 6 7
+  +---------------+
+  | . . . . . . . |
+  | . . . . . . . |
+  | . . . X . . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  | . . . X O . . |
+  +---------------+
+*** GAME OVER: You lose. Better luck next time! ***
+================ SCORES ================
+ Alice (Player_1, X) : 1 win
+ Bob   (Player_2, O) : 0 wins
+========================================
+
+======================================================================
+SERVER LOG (FSM transitions T1-T15)
+======================================================================
+21:15:45 INFO    [MainThread] INIT -> WAITING_FOR_PLAYERS (T1)
+21:15:45 INFO    [MainThread] Listening on 0.0.0.0:8080 (waiting for players)
+21:15:45 INFO    [client-127.0.0.1:56912] WAITING_FOR_PLAYERS -> WAITING_FOR_PLAYERS (T2)
+21:15:45 INFO    [client-127.0.0.1:56912] Player_1 (Alice) joined the lobby
+21:15:45 INFO    [client-127.0.0.1:56920] WAITING_FOR_PLAYERS -> GAME_START (T4)
+21:15:45 INFO    [client-127.0.0.1:56920] match: Player_1 (Alice) vs Player_2 (Bob)
+21:15:45 INFO    [client-127.0.0.1:56920] GAME_START -> PLAYER_TURN (T5)
+21:15:45 INFO    [client-127.0.0.1:56912] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56912] move 1: Player_1 (Alice) -> column 4 (row 5)
+21:15:45 INFO    [client-127.0.0.1:56912] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56920] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56920] move 2: Player_2 (Bob) -> column 5 (row 5)
+21:15:45 INFO    [client-127.0.0.1:56920] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56912] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56912] move 3: Player_1 (Alice) -> column 4 (row 4)
+21:15:45 INFO    [client-127.0.0.1:56912] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56920] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56920] move 4: Player_2 (Bob) -> column 5 (row 4)
+21:15:45 INFO    [client-127.0.0.1:56920] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56912] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56912] move 5: Player_1 (Alice) -> column 4 (row 3)
+21:15:45 INFO    [client-127.0.0.1:56912] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56920] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56920] move 6: Player_2 (Bob) -> column 5 (row 3)
+21:15:45 INFO    [client-127.0.0.1:56920] EVALUATE_MOVE -> PLAYER_TURN (T9)
+21:15:45 INFO    [client-127.0.0.1:56912] PLAYER_TURN -> EVALUATE_MOVE (T6)
+21:15:45 INFO    [client-127.0.0.1:56912] move 7: Player_1 (Alice) -> column 4 (row 2)
+21:15:45 INFO    [client-127.0.0.1:56912] EVALUATE_MOVE -> GAME_OVER (T10)
+21:15:45 INFO    [client-127.0.0.1:56912] GAME OVER: WIN winner=Player_1 scores={'Player_1': 1, 'Player_2': 0}
+21:15:45 INFO    [client-127.0.0.1:56912] GAME_OVER -> CLEANUP (T14)
+21:15:45 INFO    [client-127.0.0.1:56912] CLEANUP -> WAITING_FOR_PLAYERS (T15)
+21:15:45 INFO    [client-127.0.0.1:56912] Player_1 (Alice) closed the connection (EOF)
+21:15:45 INFO    [client-127.0.0.1:56920] Player_2 (Bob) closed the connection (EOF)
